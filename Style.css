@@ -1,0 +1,303 @@
+/* First page */
+body{
+
+    background-image: url(photos/fristPage/background3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+
+#logo{
+    color: white;
+    font-weight: bold;
+    background: #1687A7;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+pre h1{
+    color: white;
+    background: #1687A7;
+    font-family:monospace;
+    font-size: 270%;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+
+#fieldSet1{
+    border: 0;
+    width: fit-content;
+    text-align: center;
+
+}
+
+
+
+/* events page */
+
+#eventPage{
+    background-size: cover;
+
+}
+
+#fieldsetEvent{
+    border: 0;
+    width: fit-content; 
+    text-align: center;
+    background: url(photos/events/BACKGROUNDD.jpg);
+}
+
+
+
+.event{
+    color: white;
+    background: black;
+    font-family:monospace;
+    padding: 10px;
+    border-radius: 10px; 
+
+}
+
+
+
+
+/*Complain Page */
+
+#ComplainForm{
+    color: white;
+    font-size: xx-large;
+    
+}
+#ComplainForm  h1{
+    text-decoration: underline;
+}
+
+.complain{
+    background: rgb(177, 54, 54);
+}
+
+#ComplainForm p strong{
+    color: red;
+}
+
+
+
+/*Brief */
+#briefID{
+    color: white;
+
+}
+
+#briefID h1{
+        background-color: #1687A7;
+}
+
+#fsBrief{
+    border: 0;
+}
+#briefID a{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#facebookColor{
+    color: blue;
+    background-color: white;
+}
+
+#gmailColor{
+    background-color: white;
+    color: red;
+}
+
+#instagramColor{
+    background-color: rgb(221, 10, 80);
+    color: white;
+}
+
+/* askForjop page */
+#jopPage{
+    color: white;
+    font-size: x-large;
+}
+#jopPage h1{
+    text-decoration:underline ;
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* Menu Page */
+#menu td{
+    color: white; 
+}
+#menu legend{
+    color: white;
+}
+
+
+/* Log in Page */
+#logIn fieldset{
+    width:fit-content;
+    background: rgb(235, 228, 228);
+}
+#logIn legend{
+    color: white;
+    background-color: black;
+}
+
+/* Sign Up Page */
+#signUp fieldset{
+    width:fit-content;
+    background: rgb(235, 228, 228);
+}
+#signUp legend{
+    color: white;
+    background-color: black;
+}
+
+/* Cart Page */
+#cart fieldset{
+    width:fit-content;
+    background: rgb(235, 228, 228);
+}
+#cart legend{
+    color: white;
+    background-color: black;
+}
+
+/* CheckOut Page */
+#checkOut fieldset{
+    width:fit-content;
+    background: rgb(235, 228, 228);
+}
+#checkOut legend{
+    color: white;
+    background-color: black;
+}
+
+/* Iteam Detalis Page */
+#iteamDetalis fieldset{
+    width:fit-content;
+    background: rgb(235, 228, 228);
+}
+#iteamDetalis legend{
+    color: white;
+    background-color: black;
+}
+
+/* Reservation Page */
+#reservation fieldset{
+    width:fit-content;
+    text-align: left;
+    background: rgb(235, 228, 228);
+}
+#reservation legend{
+    color: white;
+    background-color: black;
+}
+
+/* Event Reservation Page */
+#eventReservation fieldset{
+    width:fit-content;
+    text-align: left;
+    background: rgb(235, 228, 228);
+}
+#eventReservation legend{
+    color: white;
+    background-color: black;
+}
+
+/* .Fieldset1{
+    width:fit-content;
+    background: rgb(235, 228, 228);
+}
+
+.Fieldset2{
+    width:fit-content;
+    text-align: left;
+    background: rgb(235, 228, 228);
+}
+
+.Legend{
+    color: white;
+    background-color: black;
+} */
+
+/* ----------------------------------------------------------------------------------------------------
+--------------------------------------------Slideshow-----------------------------------------------
+---------------------------------------------------------------------------------------------------- */
+
+#slideshow-container {
+	width: 50%;
+	margin: auto;
+	position: relative;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.next {
+	right: 0;
+}
+
+.prev {
+	left: 0;
+}
+
+.prev:hover, .next:hover {
+	background-color: black;
+	opacity: 0.8;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------
+--------------------------------------------Side Menu------------------------------------------------
+---------------------------------------------------------------------------------------------------- */
+
+#sideMenu {
+	width: 0;
+	height: 100%;
+	overflow-x: hidden;
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: 0.3s;
+}
+
+#sideMenu ul li {
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+
+#sideMenu ul li a {
+	text-decoration: none;
+	color: gray;
+	font-size: 24px;
+	transition: 0.3s;
+}
+
+#sideMenu ul li a:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.closeBtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px !important;
+}

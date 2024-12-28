@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Conan,Cafe">
+        <meta name="description" content="Conan Cafe">
+        <meta name ="viewport" content ="width = device-width , initial-scale:1.0">
+        <link rel="stylesheet" href="Style.css">
+        <script src="script.js">
+
+            return;
+        </script>
+    </head>
+    <body>
+        <img src="photos/menu.png" width="30px" onclick="openMenu();">
+        <div id="sideMenu">
+            <ul>
+                <li><a href="#" class="closeBtn" onclick="closeMenu();">&times;</a></li>
+                <li><a href="firstPage.php">Home</a></li>
+                <li><a href="Sign In.php">Sign In</a></li>
+                <li><a href="Menu.php">Menu</a></li>
+                <li><a href="Cart.php">Cart</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="Reservation.php">Reservation</a></li>
+                <li><a href="brief.php">Breief</a></li>
+                <li><a href="askForJop.php">ASk for A Job</a></li>
+                <li><a href="complain.php">Complain</a></li>
+                <li>
+                    <a href="https://www.facebook.com/Conan-Cafe-107832870603444"><img src="photos/Facebook.png" width="40" ></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/conan_cafe1/"><img src="photos/Instagram.png" width="40" ></a>&nbsp;&nbsp;
+                    <a href="mailto:hazem.m.bakr@gmail.com"><img src="photos/Email.png" width="45" ></a>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+            </ul>
+        </div>
+        <div align="center" id="signUp">
+            <img src="photos\Sign In & Sign up\Big Logo.jpg" width="35%">
+            <fieldset style="width:fit-content;">
+                <legend><b>Regestration</b></legend>
+                <br/>
+                <img src="photos\Sign In & Sign up\Sign In Avatar.png" width="100" height="100">
+                <br/><br>
+                <form style="text-align: left;" onsubmit="return validation()" method="POST" name="signUp" action = insertRegestration.php>
+                    <label><b>First Name: </b></label>
+                    <input type="text" name="FirstName" placeholder="Enter Your First Name...">
+                    <label style="color: red;">*</label>
+                    &nbsp;
+                    <label><b>Last Name: </b></label>
+                    <input type="text" name="LastName" placeholder="Enter Your Last Name...">
+                    <label style="color: red;">*</label>
+                    &nbsp;
+                    <br/><br/>
+                    <label><b>Username: </b></label>
+                    <input type="text" name="username" placeholder="Your name in the Website...">
+                    <label style="color: red;">*</label>
+                    <br/><br/>
+                    <label><b>Email: </b></label>
+                    <input type="text" name="UserEmail" placeholder="Enter your Email" />
+                    <label style="color: red;">*</label>
+                    <br/><br/>
+                    <label><b>Password: </b></label>
+                    <input type="password" name="password" placeholder="Enter your Password" />
+                    <label style="color: red;">*</label>
+                    <br/><br/>
+                    <label><b>Confirm the Password: </b></label>
+                    <input type="password" name="ConfirmPassword" placeholder="Enter your Password" />
+                    <label style="color: red;">*</label>
+                    <br/><br/>
+                    <label><b>Phone Number: </b></label>
+                    <input type="tel" name="PhoneNumber" value="+20" placeholder="Enter Your Phone Number...">
+                    <label style="color: red;">*</label>
+                    <br/><br/>
+                    <label><b>Date of Birth: </b></label>
+                    <input type="date" name="date" placeholder="Enter The Date..." max="2005-01-01" min="1920-01-01" >
+                    <label style="color:darkgrey;">*</label>
+                    <br/><br/>
+                    <label><b>Address: </b></label>
+                    <input type="text" name="address" placeholder="Enter Your Name...">
+                    <label style="color: red;">*</label>
+                    <br/><br/>
+                    <input type="reset" value="Clear All" onclick="clear2();"/>
+                    <input type="submit" value="Creat The Account"/>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

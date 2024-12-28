@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Conan,Cafe">
+        <meta name="description" content="Conan Cafe">
+        <meta name ="viewport" content ="width = device-width , initial-scale:1.0">
+        <link rel="stylesheet" href="Style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <img src="photos/menu.png" width="30px" onclick="openMenu();">
+        <div id="sideMenu">
+            <ul>
+                <li><a href="#" class="closeBtn" onclick="closeMenu();">&times;</a></li>
+                <li><a href="firstPage.php">Home</a></li>
+                <li><a href="Sign In.php">Sign In</a></li>
+                <li><a href="Menu.php">Menu</a></li>
+                <li><a href="Cart.php">Cart</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="Reservation.php">Reservation</a></li>
+                <li><a href="brief.php">Breief</a></li>
+                <li><a href="askForJop.php">ASk for A Job</a></li>
+                <li><a href="complain.php">Complain</a></li>
+                <li>
+                    <a href="https://www.facebook.com/Conan-Cafe-107832870603444"><img src="photos/Facebook.png" width="40" ></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/conan_cafe1/"><img src="photos/Instagram.png" width="40" ></a>&nbsp;&nbsp;
+                    <a href="mailto:hazem.m.bakr@gmail.com"><img src="photos/Email.png" width="45" ></a>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+            </ul>
+        </div>
+        <div align="center" ID="menu">
+            <img src="photos\Menu\menu.png">
+            <br/>
+            <fieldset style="width:fit-content; text-align: center;">
+                    <legend><b>Menu Details</b></legend>
+                    <table border="1" style="width: fit-content;" >
+                            <thead>
+                                <tr>
+                                    <td>Categories</td>
+                                    <td>Items</td>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Food</td>
+                                    <td>
+                                        <br><br>
+                                        <a href="items Details.php?ImageID=french fries&Ing=Fried Potato&price=30">&nbsp;&nbsp;<img src="photos\Menu\french fries.jpg" width="250" height="250" alt="french fries" ></a>
+                                        <a href="items Details.php?ImageID=fried chicken&Ing=Spiced Fried Chicken&price=55">&nbsp;&nbsp;<img src="photos\Menu\fried chicken.jpg" width="250" height="250" alt="fried chicken"></a>
+                                        <a href="items Details.php?ImageID=pizza&Ing=oriental sausage pizza&price=65">&nbsp;&nbsp;<img src="photos\Menu\pizza.jpg" width="250" height="250" alt="pizza"></a>
+                                        <br/>
+                                        <pre><b>French Fries                     Fried Chicken                              Pizza</b></pre>
+                                        <br/><br/>
+                                        <a href="items Details.php?ImageID=Burger Beef&Ing=Beef Burger, Beef Bacon, Lettuce, Onion Rings, Pickles, Melted Cheese, Jalapeno&price=85">&nbsp;&nbsp;<img src="photos\Menu\Burger Beef.jpg" width="250" height="250" alt="burger (beef)"></a>
+                                        <a href="items Details.php?ImageID=Burger Chicken&Ing=Chicken Burger, Smoked Turkey Bacon, Lettuce, Onion Rings, Pickles, Melted Cheese, Jalapeno&price=75">&nbsp;&nbsp;<img src="photos\Menu\Burger Chicken.jpg" width="250" height="250" alt="burer (chicken)"></a>
+                                        <a href="items Details.php?ImageID=hot dog&Ing=Hot Dog, Honey Mustard&price=50">&nbsp;&nbsp;<img src="photos\Menu\hot dog.jpg" width="250" height="250" alt="hot dog"></a>&nbsp;&nbsp;
+                                        <br/>
+                                        <pre><b>Burger "Beef"                    Burger "Chicken"                           hot dog</b></pre>
+                                        <br/><br/>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Desserts</td>
+                                    <td>
+                                        <br><br>
+                                        <a href="items Details.php?ImageID=cheesecake&Ing=Biscuit, Mix Sweet Cheese, Berry&price=45">&nbsp;&nbsp;<img src="photos\Menu\cheesecake.jpg" width="250" height="250" alt="cheesecake" ></a>
+                                        <a href="items Details.php?ImageID=molten cake&Ing=Cake, Melted chocolate&price=50">&nbsp;&nbsp;<img src="photos\Menu\molten cake.jpg" width="250" height="250" alt="molten cake"></a>
+                                        <a href="items Details.php?ImageID=cinnabon&Ing=Cinnamon&price=65">&nbsp;&nbsp;<img src="photos\Menu\cinnabon.jpg" width="250" height="250" alt="cinnabon"></a>
+                                        <br/>
+                                        <pre><b> Cheesecake                       Molten Cake                            Cinnabon</b></pre>
+                                        <br/><br/>
+                                        <a href="items Details.php?ImageID=brownies&Ing=Brownies&price=50">&nbsp;&nbsp;<img src="photos\Menu\brownies.jpg" width="250" height="250" alt="brownies"></a>
+                                        <a href="items Details.php?ImageID=donuts&Ing=Donuts&price=40">&nbsp;&nbsp;<img src="photos\Menu\donuts.jpg" width="250" height="250" alt="donuts"></a>
+                                        <a href="items Details.php?ImageID=eclair&Ing=Eclair&price=45">&nbsp;&nbsp;<img src="photos\Menu\eclair.jpg" width="250" height="250" alt="eclair"></a>&nbsp;&nbsp;
+                                        <br/>
+                                        <pre><b> Brownies                           Donuts                                 Eclair</b></pre>
+                                        <br/><br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Hot Drinks</td>
+                                    <td>
+                                        <br><br>
+                                        <a href="items Details.php?ImageID=Turkish Coffee&Ing=colombian coffee&price=25">&nbsp;&nbsp;<img src="photos\Menu\Turkish Coffee.jpg" width="250" height="250" alt="Turkish Coffee"></a>
+                                        <a href="items Details.php?ImageID=Espresso&Ing=colombian coffee&price=30">&nbsp;&nbsp;<img src="photos\Menu\Espresso.jpg" width="250" height="250" alt="Espresso"></a>
+                                        <a href="items Details.php?ImageID=Cocoa&Ing=colombian Cocoa&price=45">&nbsp;&nbsp;<img src="photos\Menu\Cocoa.jpg" width="250" height="250" alt="Cocoa"></a>
+                                        <br/>
+                                        <pre><b>Turkish Coffee                      Espresso                                Cocoa</b></pre>
+                                        <br/><br/>
+                                        <a href="items Details.php?ImageID=Latte&Ing=colombian Coffee, Milk, Hazelnut&price=50">&nbsp;&nbsp;<img src="photos\Menu\Latte.jpg" width="250" height="250" alt="Latte"></a>
+                                        <a href="items Details.php?ImageID=Tea&Ing=Red Tea&price=25">&nbsp;&nbsp;<img src="photos\Menu\Tea.jpg" width="250" height="250" alt="Tea"></a>
+                                        <a href="items Details.php?ImageID=Green Tea&Ing=Green Tea&price=30">&nbsp;&nbsp;<img src="photos\Menu\Green Tea.jpg" width="250" height="250" alt="Green Tea"></a>&nbsp;&nbsp;
+                                        <br/>
+                                        <pre><b>   Latte                              Tea                                  Green Tea</b></pre>
+                                        <br/><br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Fresh Juice</td>
+                                    <td>
+                                        <br><br>
+                                        <a href="items Details.php?ImageID=Mango Juise&Ing=Fresh Mango&price=45">&nbsp;&nbsp;<img src="photos\Menu\Mango Juise.jpg" width="250" height="250" alt="Mango Juise"></a>
+                                        <a href="items Details.php?ImageID=Strawberry Juice&Ing=Fresh Strawberry&price=40">&nbsp;&nbsp;<img src="photos\Menu\Strawberry Juice.jpg" width="250" height="250" alt="Strawberry Juice"></a>
+                                        <a href="items Details.php?ImageID=Guava Juice&Ing=Fresh Guava&price=35">&nbsp;&nbsp;<img src="photos\Menu\Guava Juice.jpg" width="250" height="250" alt="Guava Juice"></a>
+                                        <br/>
+                                        <pre><b>Mango Juise                     Strawberry Juice                         Guava Juice</b></pre>
+                                        <br/><br/>
+                                        <a href="items Details.php?ImageID=Watermelon Juice&Ing=Fresh Watermelon&price=40">&nbsp;&nbsp;<img src="photos\Menu\Watermelon Juice.jpg" width="250" height="250" alt="Watermelon Juice"></a>
+                                        <a href="items Details.php?ImageID=Pinapple Juice&Ing=Fresh Pinapple&price=50">&nbsp;&nbsp;<img src="photos\Menu\Pinapple Juice.jpg" width="250" height="250" alt="Pinapple Juice"></a>
+                                        <a href="items Details.php?ImageID=Lemon Juice&Ing=Fresh Lemon, Ment&price=40">&nbsp;&nbsp;<img src="photos\Menu\Lemon Juice.jpg" width="250" height="250" alt="Lemon Juice"></a>&nbsp;&nbsp;
+                                        <br/>
+                                        <pre><b>Watermelon Juice                 Pinapple Juice                          Lemon Juice</b></pre>
+                                        <br/><br/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+            </fieldset>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- <table border="1" style="width: fit-content; text-align: center;" >
+                            <thead>
+                                <tr>
+                                    <td>Categories</td>
+                                    <td>Items</td>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Food</td>
+                                    <td>
+                                        <br><br> -->
+<!--                                         
+                                            <div class="row">
+                                                <div class="column">
+                                                  <img src="french fries.jpg" alt="French Fries" style="width:25%">
+                                                  <p><b>French Fries</b></p>
+                                                </div>
+                                                <div class="column">
+                                                  <img src="fried chicken.jpg" alt="fried chicken" style="width:25%">
+                                                  <p><b>Fried Chicken</b></p>
+                                                </div>
+                                                <div class="column">
+                                                  <img src="pizza.jpg" alt="pizza" style="width:25%">
+                                                  <p><b>pizza</b></p>
+                                                </div>
+                                              </div>
+
+                                               <div class="row"> -->
+                                                <!-- <div class="column"> -->
+                                                  <!-- <img src="Burger Beef.jpg" alt="Burger Beef" style="width:25%">
+                                                  <p><b>Burger "Beef"</b></p> -->
+                                                <!-- </div> -->
+                                                <!-- <div class="column"> -->
+                                                  <!-- <img src="Burger Chicken.jpg" alt="Burger Chicken" style="width:25%">
+                                                  <p><b>Burger "Chicken"</b></p> -->
+                                                <!-- </div> -->
+                                                <!-- <div class="column"> -->
+                                                     
+                                                  <!-- <img src="hot dog.jpg" alt="hot dog" style="width:25%; display:block;"> -->
+                                                  <!-- <p><b>Hot Dog</b></p> -->
+                                                <!-- </div> -->
+                                              <!-- </div> -->
+                                    <!-- </td>
+                                </tr>
+                            </tbody>
+                        </table> -->
